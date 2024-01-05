@@ -17,7 +17,7 @@ class AURA_API UOverlayWidgetController : public UAuraWidgetController
 {
 	GENERATED_BODY()
 public:
-	virtual void BroadcastInitialVaLues() override;
+	virtual void BroadcastInitialValues() override;
 
 	UPROPERTY(BlueprintAssignable, Category="GAS|Attributes")
 	FOnHealtChangedSignature OnHealtChanged;
