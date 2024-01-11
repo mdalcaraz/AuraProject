@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13b11034-de24-4256-b8f2-35e2d514f935" name="Changes" comment="" />
+    <list default="true" id="13b11034-de24-4256-b8f2-35e2d514f935" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/BP_HealthPotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/BP_HealthPotion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/GE_PotionHealth.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/GE_PotionHealth.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/ProgressBar/WBP_ManaGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/ProgressBar/WBP_ManaGlobe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Actor/AuraEffectActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Actor/AuraEffectActor.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2aNKtcKaGMaeR4TsTq1PcjONKJR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,6 +29,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -32,8 +43,12 @@
       <option name="presentableId" value="Default" />
       <updated>1704153813862</updated>
       <workItem from="1704153816873" duration="1000" />
+      <workItem from="1704943635418" duration="8000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
