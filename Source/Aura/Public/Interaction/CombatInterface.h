@@ -26,5 +26,5 @@ public:
 	virtual FVector GetCombatSocketLocation();
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
-	void UpdateFacingtarget(const FVector& Target);
+	void UpdateFacingTarget(const FVector& Target);
 };
