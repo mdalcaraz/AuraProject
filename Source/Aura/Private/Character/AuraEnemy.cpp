@@ -28,7 +28,6 @@ AAuraEnemy::AAuraEnemy()
 	GetCharacterMovement()->bUseControllerDesiredRotation = false;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	AttributeSet = CreateDefaultSubobject<UAuraAttributeSet>("AttributeSet");
-UCharacterMovementComponent* mov = GetCharacterMovement();
 	HealthBar = CreateDefaultSubobject<UWidgetComponent>("HealthBar");
 	HealthBar->SetupAttachment(GetRootComponent());
 }
