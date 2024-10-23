@@ -20,10 +20,11 @@ public:
 	virtual void OnRep_PlayerState() override;
 	/** Player Interface **/
 	virtual void AddToXp_Implementation(int32 InXP) override;
+	virtual void LevelUp_Implementation() override;
 	/** end Player Interface **/
 	
 	/** Combat Interface **/
-	virtual int32 GetPlayerLevel() override;
+	virtual int32 GetPlayerLevel_Implementation() override;
 	/** end Combat Interface **/
 private:
 	virtual void InitAbilityActorInfo() override;
