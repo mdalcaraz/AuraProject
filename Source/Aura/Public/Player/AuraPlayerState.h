@@ -35,7 +35,7 @@ public:
 	FORCEINLINE int32 GetXP() const { return XP; }
 
 	void AddToXP(int32 InXP);
-	void AddLevel(int32 InLevel);
+	void AddToLevel(int32 InLevel);
 	
 	void SetXP(int32 InXP);
 	void SetLevel(int32 InLevel);
