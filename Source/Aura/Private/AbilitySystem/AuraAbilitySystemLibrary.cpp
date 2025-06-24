@@ -195,12 +195,9 @@ FGameplayTag UAuraAbilitySystemLibrary::GetDamageType(const FGameplayEffectConte
 
 FVector UAuraAbilitySystemLibrary::GetDeathImpulse(const FGameplayEffectContextHandle& EffectContextHandle)
 {
-	if(const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
 	{
-		if (AuraEffectContext->GetDamageType().IsValid())
-		{
-			return AuraEffectContext->GetDeathImpulse();
-		}
+		return AuraEffectContext->GetDeathImpulse();
 	}
 	return FVector::ZeroVector;
 }
