@@ -329,6 +329,19 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FName("Abilities.Lightning.Electrocute"),
 		FString("Electrocute Ability tag")
 		);
+	
+	GameplayTags.Abilities_Passive_HaloOfProtection = UGameplayTagsManager::Get().AddNativeGameplayTag(
+		FName("Abilities.Passive.HaloOfProtection"),
+		FString("Halo Of Protection")
+		);
+	GameplayTags.Abilities_Passive_LifeSiphon = UGameplayTagsManager::Get().AddNativeGameplayTag(
+		FName("Abilities.Passive.LifeSiphon"),
+		FString("Life Siphon")
+		);
+	GameplayTags.Abilities_Passive_ManaSiphon = UGameplayTagsManager::Get().AddNativeGameplayTag(
+		FName("Abilities.Passive.ManaSiphon"),
+		FString("Mana Siphon")
+		);
 
 	/*
 	 * Cooldown
